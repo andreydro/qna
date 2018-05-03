@@ -4,4 +4,6 @@ Lesson 1: done
 
 Lesson 2: done
 
-Lesson 3: in progress
+Lesson 3: done
+
+Lesson 4: in progress...
