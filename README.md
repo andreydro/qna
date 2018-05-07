@@ -10,4 +10,6 @@ Lesson 4: done
 
 Lesson 5: done
 
-Lesson 6: in progress...
+Lesson 6: done
+
+Lesson 7: in progress...
