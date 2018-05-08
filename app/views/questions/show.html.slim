@@ -1,11 +1,13 @@
 h1= @question.title
 p= @question.body
 
-.answer
+.answers
   = render 'answers'
 
 
 = form_for [@question, @answer], remote: true do |f|
+  p
   = f.label :body, 'Your answer'
+  .answer-errors
   = f.text_area :body
-  = f.submit 'Create'
+  p= f.submit 'Create'

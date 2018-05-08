@@ -1,4 +1,4 @@
-require 'rails_helper'
+require_relative 'features_helper'
 
 feature 'User answer', %q{
   In order to exchange my knowledge
@@ -17,5 +17,14 @@ feature 'User answer', %q{
     click_on 'Create'
 
     expect(current_path). to eq question_path(question)
+  end
+
+  scenario 'User try to create invalid answer', js: true do
+    sign_in user
+    visit question_path(question)
+
+    click_on 'Create'
+
+    expect(page).to have_content "Body can't be blank"
   end
 end
