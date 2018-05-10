@@ -1,8 +1,8 @@
 require_relative 'features_helper'
 
 feature 'Add files to question', %q{
-  In roder to illistrate my question
-  As an question;s author
+  In order to illustrate my question
+  As an question's author
   I'd like to be able to attach files
 } do
 
@@ -19,6 +19,6 @@ feature 'Add files to question', %q{
     attach_file 'File', "#{Rails.root}/spec/spec_helper.rb"
     click_on 'Create'
 
-    expect(page).to have_link 'spec_helper.rb', href: '/uploads/attachment/file/1/spec_helper.rb'
+    expect(page).to have_link 'spec_helper.rb', href: '/uploads/attachment/file/2/spec_helper.rb'
   end
 end
