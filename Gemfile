@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'slim-rails'
 gem 'devise'
+gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'carrierwave'
@@ -44,6 +45,9 @@ gem 'remotipart'
 gem 'private_pub'
 gem 'thin'
 gem 'responders'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'ngrok'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -53,6 +57,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'capybara-webkit'
+  gem 'ngrok-tunnel'
 end
 
 group :development do
