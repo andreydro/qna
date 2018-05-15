@@ -49,6 +49,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'ngrok'
 gem 'cancancan'
+gem 'doorkeeper'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -78,6 +79,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'launchy'
   gem 'database_cleaner'
+  gem 'json_spec'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

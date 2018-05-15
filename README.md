@@ -24,6 +24,10 @@ Lesson 11-1: done
 
 Lesson 11-2: done
 
-Lesson 12: in progress...
+Lesson 12: done
 
-Lesson 13: in progress...
+Lesson 13: done
+
+Lesson 14: done
+
+Lesson 15: in progress...
