@@ -32,4 +32,8 @@ Lesson 14: done
 
 Lesson 15: done
 
-Lesson 16: in progress...
+Lesson 16: done
+
+Lesson 17: done
+
+Lesson 18: in progress...

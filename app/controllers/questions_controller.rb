@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
 
   respond_to :html
 
-  authorize_resource
+  #authorize_resource
 
   def index
     respond_with(@questions = Question.all)
@@ -16,14 +16,14 @@ class QuestionsController < ApplicationController
   end
 
   def new
-    respond_with (@question = Question.new)
+    respond_with(@question = Question.new)
   end
 
   def edit
   end
 
   def create
-    respond_with (@question = Question.create(question_params))
+    respond_with(@question = Question.create(question_params))
   end
 
   def update
