@@ -36,4 +36,6 @@ Lesson 16: done
 
 Lesson 17: done
 
-Lesson 18: in progress...
+Lesson 18: done
+
+Lesson 19: in progress...

@@ -34,3 +34,6 @@ config/secrets.yml
 
 /.idea
 /.idea*
+
+config/*.sphinx.conf
+db/sphinx
