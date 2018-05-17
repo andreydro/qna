@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
 
   respond_to :html
 
-  #authorize_resource
+  authorize_resource
 
   def index
     respond_with(@questions = Question.all)
@@ -39,6 +39,11 @@ class QuestionsController < ApplicationController
 
   def load_question
     @question = Question.find(params[:id])
+  end
+
+  def create_resource(object)
+    object.user = current_user
+    super
   end
 
   def build_answer

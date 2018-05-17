@@ -27,6 +27,11 @@ class AnswersController < ApplicationController
     PrivatePub.publish_to("/questions/#{@question.id}/answers", answer: @answer.to_json) if @answer.valid?
   end
 
+  def create_resource(object)
+    object.user = current_user
+    super
+  end
+
   def answer_params
     params.require(:answer).permit(:body, attachments_attributes: [:file])
   end

@@ -10,5 +10,6 @@ class ApplicationController < ActionController::Base
     redirect_to root_url, alert: exception.message
   end
 
+  #load_and_authorize_resource
   skip_authorization_check
 end
