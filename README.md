@@ -44,5 +44,6 @@ Lesson 20: viewed
 
 Lesson 21: skipped
 
-Lesson 22: in progress...
+Lesson 22: done
 
+Lesson 23: in progress...
