@@ -40,5 +40,9 @@ Lesson 18: done
 
 Lesson 19: viewed
 
-Lesson 20: in process..
+Lesson 20: viewed
+
+Lesson 21: skipped
+
+Lesson 22: in progress...
 
